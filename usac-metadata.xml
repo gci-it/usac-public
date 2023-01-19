@@ -1,0 +1,1272 @@
+<edmx:Edmx xmlns:edmx="http://docs.oasis-open.org/odata/ns/edmx" Version="4.0">
+    <edmx:DataServices>
+        <Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="socrata">
+
+
+
+            <!-- Rural Health Care Commitments and Disbursements (FCC Form 462/466/466A) -->
+            <!-- https://opendata.usac.org/Rural-Health-Care/Rural-Health-Care-Commitments-and-Disbursements-FC/2kme-evqq -->
+            <EntityType Name="2kme-evqq">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="filing_hcp_city" Type="Edm.String" />
+                <Property Name="filing_hcp_street" Type="Edm.String" />
+                <Property Name="filing_hcp_name" Type="Edm.String" />
+                <Property Name="jitter" Type="Edm.String" />
+                <Property Name="reliability" Type="Edm.String" />
+                <Property Name="original_committed_amount" Type="Edm.Decimal" />
+                <Property Name="monthly_rural_rate" Type="Edm.Decimal" />
+                <Property Name="eligible_service" Type="Edm.Decimal" />
+                <Property Name="participating_hcp_street" Type="Edm.String" />
+                <Property Name="filing_hcp_latitude" Type="Edm.String" />
+                <Property Name="filing_hcp_entity_type" Type="Edm.String" />
+                <Property Name="total_commited_amount" Type="Edm.Decimal" />
+                <Property Name="participating_hcp_county" Type="Edm.String" />
+                <Property Name="participating_hcp_entity_type" Type="Edm.String" />
+                <Property Name="filing_hcp_longitude" Type="Edm.String" />
+                <Property Name="participating_hcp_state" Type="Edm.String" />
+                <Property Name="bandwidth" Type="Edm.String" />
+                <Property Name="participating_hcp_name" Type="Edm.String" />
+                <Property Name="participating_hcp" Type="Edm.String" />
+                <Property Name="funding_commitment_date" Type="Edm.String" />
+                <Property Name="frequency_of_expense" Type="Edm.String" />
+                <Property Name="filing_hcp_zip_code" Type="Edm.String" />
+                <Property Name="quantity_of_item_invoiced" Type="Edm.String" />
+                <Property Name="participating_hcp_latitude" Type="Edm.String" />
+                <Property Name="program" Type="Edm.String" />
+                <Property Name="prorata_factor" Type="Edm.String" />
+                <Property Name="service_level_agreement" Type="Edm.String" />
+                <Property Name="filing_hcp_county" Type="Edm.String" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="filing_window" Type="Edm.String" />
+                <Property Name="eligible_site" Type="Edm.Decimal" />
+                <Property Name="original_requested_amount" Type="Edm.Decimal" />
+                <Property Name="multi_year_funding" Type="Edm.String" />
+                <Property Name="participating_hcp_longitude" Type="Edm.String" />
+                <Property Name="latency" Type="Edm.String" />
+                <Property Name="status" Type="Edm.String" />
+                <Property Name="funding_start_date" Type="Edm.String" />
+                <Property Name="number_of_bidders" Type="Edm.String" />
+                <Property Name="participating_hcp_city" Type="Edm.String" />
+                <Property Name="filing_hcp_state" Type="Edm.String" />
+                <Property Name="fund_type" Type="Edm.String" />
+                <Property Name="participating_hcp_zip_code" Type="Edm.String" />
+                <Property Name="filing_hcp" Type="Edm.String" />
+                <Property Name="frn_line_number" Type="Edm.String" />
+                <Property Name="packet_loss" Type="Edm.String" />
+                <Property Name="funding_submission_date" Type="Edm.String" />
+                <Property Name="download_speed" Type="Edm.String" />
+                <Property Name="invoice_deadline_date" Type="Edm.String" />
+                <Property Name="total_authorized_disbursement_amount" Type="Edm.Decimal" />
+                <Property Name="service_provider_name" Type="Edm.String" />
+                <Property Name="service_provider_id" Type="Edm.String" />
+                <Property Name="funding_end_date" Type="Edm.String" />
+                <Property Name="monthly_urban_rate" Type="Edm.Decimal" />
+                <Property Name="upload_speed" Type="Edm.String" />
+                <Property Name="service_type" Type="Edm.String" />
+                <Property Name="category_of_expense" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Open Competitive Bidding: Consortium Entity Information (FCC Form 470 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Open-Competitive-Bidding-Consortium-Entity-/363f-22uh -->
+            <EntityType Name="363f-22uh">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="consortium_entity_mailing_address_2" Type="Edm.String" />
+                <Property Name="consortium_entity_fcc_registration_number" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="consortium_entity_organization_type" Type="Edm.String" />
+                <Property Name="consortium_entity_sub_type" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_zipcode" Type="Edm.String" />
+                <Property Name="consortium_entity_name" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_city" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_address_2" Type="Edm.String" />
+                <Property Name="consortium_entity_status" Type="Edm.String" />
+                <Property Name="consortium_entity_applicant_type" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_zipcode_ext" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_address_1" Type="Edm.String" />
+                <Property Name="consortium_entity_number" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_state" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_state" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_address_1" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_county" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_county" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_city" Type="Edm.String" />
+                <Property Name="consortium_entity_physical_zipcode_ext" Type="Edm.String" />
+                <Property Name="consortium_entity_mailing_zipcode" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Open Competitive Bidding: Services Requested (FCC Form 470 and Related Information) -->
+            <!-- https://opendata.usac.org/E-Rate/E-Rate-Open-Competitive-Bidding-Services-Requested/39tn-hjzv -->
+            <EntityType Name="39tn-hjzv">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="manufacturer" Type="Edm.String" />
+                <Property Name="rfp_identifier" Type="Edm.String" />
+                <Property Name="quantity" Type="Edm.Decimal" />
+                <Property Name="unit" Type="Edm.String" />
+                <Property Name="minimum_capacity" Type="Edm.String" />
+                <Property Name="maximum_capacity" Type="Edm.String" />
+                <Property Name="installation_initial_configuration" Type="Edm.String" />
+                <Property Name="maintenance_technical_support" Type="Edm.String" />
+                <Property Name="other_manufacturer" Type="Edm.String" />
+                <Property Name="rfp_documents" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="rfp_upload_date" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="service_category" Type="Edm.String" />
+                <Property Name="service_type" Type="Edm.String" />
+                <Property Name="function" Type="Edm.String" />
+                <Property Name="other_function" Type="Edm.String" />
+                <Property Name="entities" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- E-Rate C2 Budget Tool Data FY2021+ -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-C2-Budget-Tool-Data-FY2021-/6brt-5pbv -->
+            <EntityType Name="6brt-5pbv">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="school_student_multiplier" Type="Edm.Decimal" />
+                <Property Name="c2_budget_version" Type="Edm.String" />
+                <Property Name="c2_budget_cycle" Type="Edm.String" />
+                <Property Name="applicant_type" Type="Edm.String" />
+                <Property Name="consulting_firm_name_crn" Type="Edm.String" />
+                <Property Name="full_time_students" Type="Edm.Decimal" />
+                <Property Name="c2_budget_algorithm" Type="Edm.String" />
+                <Property Name="billed_entity_name" Type="Edm.String" />
+                <Property Name="library_square_footage" Type="Edm.Decimal" />
+                <Property Name="pending_c2_budget_amount" Type="Edm.Decimal" />
+                <Property Name="child_entity_count" Type="Edm.Decimal" />
+                <Property Name="c2_budget" Type="Edm.Decimal" />
+                <Property Name="library_multiplier" Type="Edm.Decimal" />
+                <Property Name="available_c2_budget_amount" Type="Edm.Decimal" />
+                <Property Name="ben" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="city" Type="Edm.String" />
+                <Property Name="funded_c2_budget_amount" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Supplemental Entity Information -->
+            <!-- https://opendata.usac.org/E-Rate/E-Rate-Supplemental-Entity-Information/7i5i-83qf -->
+            <EntityType Name="7i5i-83qf">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="square_footage" Type="Edm.Decimal" />
+                <Property Name="esa_school_district" Type="Edm.String" />
+                <Property Name="private_library_system" Type="Edm.String" />
+                <Property Name="c2_school_student_count" Type="Edm.Decimal" />
+                <Property Name="entity_number" Type="Edm.String" />
+                <Property Name="nces_public_district_code" Type="Edm.String" />
+                <Property Name="parent_entity_number" Type="Edm.String" />
+                <Property Name="cep_percentage" Type="Edm.Decimal" />
+                <Property Name="peak_number_of_part_time_students" Type="Edm.Decimal" />
+                <Property Name="website_url" Type="Edm.String" />
+                <Property Name="physical_city" Type="Edm.String" />
+                <Property Name="tribal_library" Type="Edm.String" />
+                <Property Name="state_library_agency_consortium" Type="Edm.String" />
+                <Property Name="esa_school" Type="Edm.String" />
+                <Property Name="bie" Type="Edm.String" />
+                <Property Name="does_this_organization_have_an_endowment" Type="Edm.String" />
+                <Property Name="alternative_discount_method" Type="Edm.String" />
+                <Property Name="nces_private_school_id" Type="Edm.String" />
+                <Property Name="research" Type="Edm.String" />
+                <Property Name="kiosk" Type="Edm.String" />
+                <Property Name="latitude" Type="Edm.Decimal" />
+                <Property Name="mailing_county" Type="Edm.String" />
+                <Property Name="entity_type" Type="Edm.String" />
+                <Property Name="new_construction_library" Type="Edm.String" />
+                <Property Name="public_school_district" Type="Edm.String" />
+                <Property Name="detention_center" Type="Edm.String" />
+                <Property Name="tribal_school" Type="Edm.String" />
+                <Property Name="juvenile_justice" Type="Edm.String" />
+                <Property Name="dormitory" Type="Edm.String" />
+                <Property Name="state_library_agency_library" Type="Edm.String" />
+                <Property Name="private_library" Type="Edm.String" />
+                <Property Name="main_branch" Type="Edm.String" />
+                <Property Name="academic" Type="Edm.String" />
+                <Property Name="user_entered_urban_rural_status" Type="Edm.String" />
+                <Property Name="mailing_zipcode_ext" Type="Edm.String" />
+                <Property Name="physical_zipcode_ext" Type="Edm.String" />
+                <Property Name="form498_status" Type="Edm.String" />
+                <Property Name="general_use_school" Type="Edm.String" />
+                <Property Name="swing_space" Type="Edm.String" />
+                <Property Name="head_start" Type="Edm.String" />
+                <Property Name="community_eligibility_program_cep" Type="Edm.String" />
+                <Property Name="public_library" Type="Edm.String" />
+                <Property Name="state_wide" Type="Edm.String" />
+                <Property Name="esa_consortium" Type="Edm.String" />
+                <Property Name="private_school_district" Type="Edm.String" />
+                <Property Name="esa_school_district_with_no_schools" Type="Edm.String" />
+                <Property Name="mailing_address_2" Type="Edm.String" />
+                <Property Name="mailing_state" Type="Edm.String" />
+                <Property Name="physical_zipcode" Type="Edm.String" />
+                <Property Name="is_school_library_independent" Type="Edm.String" />
+                <Property Name="main_library_branch_school_district_number" Type="Edm.String" />
+                <Property Name="non_profit_purchasing_group" Type="Edm.String" />
+                <Property Name="state_education_agency" Type="Edm.String" />
+                <Property Name="urban_rural_status" Type="Edm.String" />
+                <Property Name="public_library_system" Type="Edm.String" />
+                <Property Name="bookmobile" Type="Edm.String" />
+                <Property Name="new_construction_school" Type="Edm.String" />
+                <Property Name="pre_k" Type="Edm.String" />
+                <Property Name="adult_education" Type="Edm.String" />
+                <Property Name="parent_entity_type" Type="Edm.String" />
+                <Property Name="fcc_registration_number" Type="Edm.String" />
+                <Property Name="status" Type="Edm.String" />
+                <Property Name="general_contact_name" Type="Edm.String" />
+                <Property Name="charter_school_district" Type="Edm.String" />
+                <Property Name="c2_student_count_reporting_type" Type="Edm.String" />
+                <Property Name="other_state_agency" Type="Edm.String" />
+                <Property Name="charter_school" Type="Edm.String" />
+                <Property Name="private_school" Type="Edm.String" />
+                <Property Name="public_school" Type="Edm.String" />
+                <Property Name="parent_entity_name" Type="Edm.String" />
+                <Property Name="fcc_form_498_form_number" Type="Edm.String" />
+                <Property Name="nces_public_state_code" Type="Edm.String" />
+                <Property Name="entity_last_modified_by" Type="Edm.String" />
+                <Property Name="number_of_nslp_students" Type="Edm.Decimal" />
+                <Property Name="total_number_of_part_time_students" Type="Edm.Decimal" />
+                <Property Name="number_of_full_time_students" Type="Edm.Decimal" />
+                <Property Name="nces_public_building_code" Type="Edm.String" />
+                <Property Name="physical_address" Type="Edm.String" />
+                <Property Name="physical_address_2" Type="Edm.String" />
+                <Property Name="phone_number" Type="Edm.String" />
+                <Property Name="account_administrator_name" Type="Edm.String" />
+                <Property Name="c2_district_student_count" Type="Edm.Decimal" />
+                <Property Name="state_school_code" Type="Edm.String" />
+                <Property Name="state_lea_code" Type="Edm.String" />
+                <Property Name="last_updated_date" Type="Edm.String" />
+                <Property Name="entity_name" Type="Edm.String" />
+                <Property Name="fcc_form_498_status_date_time" Type="Edm.String" />
+                <Property Name="physical_county" Type="Edm.String" />
+                <Property Name="physical_state" Type="Edm.String" />
+                <Property Name="mailing_address" Type="Edm.String" />
+                <Property Name="mailing_city" Type="Edm.String" />
+                <Property Name="mailing_zipcode" Type="Edm.String" />
+                <Property Name="email" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.Decimal" />
+                <Property Name="main_library_branch_school_district_name" Type="Edm.String" />
+                <Property Name="fscs_key" Type="Edm.String" />
+                <Property Name="fscs_seq" Type="Edm.String" />
+                <Property Name="locale_code" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- Rural Health Care Posted Services (FCC Form 461/465) -->
+            <!-- https://opendata.usac.org/Rural-Health-Care/Rural-Health-Care-Posted-Services-FCC-Form-461-465/96rf-xd57 -->
+            <EntityType Name="96rf-xd57">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="rfp_9" Type="Edm.String" />
+                <Property Name="additional_document_10" Type="Edm.String" />
+                <Property Name="additional_document_8" Type="Edm.String" />
+                <Property Name="rfp_10" Type="Edm.String" />
+                <Property Name="rfp_1" Type="Edm.String" />
+                <Property Name="contact_phone" Type="Edm.String" />
+                <Property Name="site_zip_code" Type="Edm.String" />
+                <Property Name="allowable_contract_start_date" Type="Edm.String" />
+                <Property Name="mail_contact_organization_name" Type="Edm.String" />
+                <Property Name="mail_contact_phone" Type="Edm.String" />
+                <Property Name="mail_contact_email" Type="Edm.String" />
+                <Property Name="hcp_name" Type="Edm.String" />
+                <Property Name="contact_first_name" Type="Edm.String" />
+                <Property Name="mail_contact_middle_initial" Type="Edm.String" />
+                <Property Name="mail_contact_last_name" Type="Edm.String" />
+                <Property Name="mail_city" Type="Edm.String" />
+                <Property Name="hcp_fcc_registration_number" Type="Edm.String" />
+                <Property Name="additional_document_5" Type="Edm.String" />
+                <Property Name="additional_document_6" Type="Edm.String" />
+                <Property Name="number_of_days_posted" Type="Edm.Decimal" />
+                <Property Name="program" Type="Edm.String" />
+                <Property Name="cat_expense_infrast_cons" Type="Edm.String" />
+                <Property Name="posting_start_date" Type="Edm.String" />
+                <Property Name="expected_bid_evaluation_period" Type="Edm.Decimal" />
+                <Property Name="contact_email" Type="Edm.String" />
+                <Property Name="additional_document_3" Type="Edm.String" />
+                <Property Name="mail_address_line_2" Type="Edm.String" />
+                <Property Name="site_address_line_2" Type="Edm.String" />
+                <Property Name="applicant_type" Type="Edm.String" />
+                <Property Name="hcp_number" Type="Edm.String" />
+                <Property Name="rfp_submitted" Type="Edm.Decimal" />
+                <Property Name="request_for_services" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="rfp_2" Type="Edm.String" />
+                <Property Name="cat_expense_leased_cons" Type="Edm.String" />
+                <Property Name="additional_document_4" Type="Edm.String" />
+                <Property Name="additional_document_9" Type="Edm.String" />
+                <Property Name="cat_expense_design_cons" Type="Edm.String" />
+                <Property Name="additional_document_7" Type="Edm.String" />
+                <Property Name="rfp_8" Type="Edm.String" />
+                <Property Name="rfp_3" Type="Edm.String" />
+                <Property Name="cat_expense_equipment_ind" Type="Edm.String" />
+                <Property Name="cat_expense_leased_ind" Type="Edm.String" />
+                <Property Name="status" Type="Edm.String" />
+                <Property Name="cat_expense_equipment_cons" Type="Edm.String" />
+                <Property Name="rfp_5" Type="Edm.String" />
+                <Property Name="rfp_7" Type="Edm.String" />
+                <Property Name="rfp_4" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="mail_contact_first_name" Type="Edm.String" />
+                <Property Name="posting_end_date" Type="Edm.String" />
+                <Property Name="additional_document_2" Type="Edm.String" />
+                <Property Name="mad" Type="Edm.String" />
+                <Property Name="mail_state" Type="Edm.String" />
+                <Property Name="mail_contact_fax" Type="Edm.String" />
+                <Property Name="site_county" Type="Edm.String" />
+                <Property Name="site_address_line_1" Type="Edm.String" />
+                <Property Name="site_consortium_name" Type="Edm.String" />
+                <Property Name="site_city" Type="Edm.String" />
+                <Property Name="contact_last_name" Type="Edm.String" />
+                <Property Name="cat_expense_mgmt_cons" Type="Edm.String" />
+                <Property Name="requested_contract_period" Type="Edm.String" />
+                <Property Name="mail_zip" Type="Edm.String" />
+                <Property Name="mail_address_line_1" Type="Edm.String" />
+                <Property Name="rfp_6" Type="Edm.String" />
+                <Property Name="participating_site_locations" Type="Edm.String" />
+                <Property Name="description_of_services_requested" Type="Edm.String" />
+                <Property Name="additional_document_1" Type="Edm.String" />
+                <Property Name="site_state" Type="Edm.String" />
+                <Property Name="link_to_fcc_form_pdf" Type="Edm.String" />
+                <Property Name="contact_middle_initial" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: Basic Information (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-Basic-Info/9s6i-myen -->
+            <EntityType Name="9s6i-myen">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="form_471_status_name" Type="Edm.String" />
+                <Property Name="org_state" Type="Edm.String" />
+                <Property Name="cnct_last_name" Type="Edm.String" />
+                <Property Name="total_eligible_nslp_students" Type="Edm.Decimal" />
+                <Property Name="c1_discount" Type="Edm.Decimal" />
+                <Property Name="aut_state" Type="Edm.String" />
+                <Property Name="aut_phone_ext" Type="Edm.String" />
+                <Property Name="chosen_category_of_service" Type="Edm.String" />
+                <Property Name="fcc_registration_number" Type="Edm.String" />
+                <Property Name="file_url" Type="Edm.String" />
+                <Property Name="aut_address2" Type="Edm.String" />
+                <Property Name="aut_address1" Type="Edm.String" />
+                <Property Name="aut_first_name" Type="Edm.String" />
+                <Property Name="c2_discount" Type="Edm.Decimal" />
+                <Property Name="org_address1" Type="Edm.String" />
+                <Property Name="cnct_email" Type="Edm.String" />
+                <Property Name="cnct_phone" Type="Edm.String" />
+                <Property Name="cnct_phone_extension" Type="Edm.String" />
+                <Property Name="aut_last_name" Type="Edm.String" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="aut_title" Type="Edm.String" />
+                <Property Name="aut_zipcode_ext" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="aut_middle_initial" Type="Edm.String" />
+                <Property Name="aut_phone" Type="Edm.String" />
+                <Property Name="org_phone" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.Decimal" />
+                <Property Name="aut_email" Type="Edm.String" />
+                <Property Name="org_phone_ext" Type="Edm.String" />
+                <Property Name="nickname" Type="Edm.String" />
+                <Property Name="aut_zipcode" Type="Edm.String" />
+                <Property Name="nslp_percentage" Type="Edm.Decimal" />
+                <Property Name="pre_discount_eligible_amount" Type="Edm.Decimal" />
+                <Property Name="last_modified_timestamp" Type="Edm.String" />
+                <Property Name="congressional_district" Type="Edm.String" />
+                <Property Name="non_discount_share" Type="Edm.Decimal" />
+                <Property Name="funding_request_amount" Type="Edm.Decimal" />
+                <Property Name="c1_voice_discount" Type="Edm.Decimal" />
+                <Property Name="full_time_students" Type="Edm.Decimal" />
+                <Property Name="certified_datetime" Type="Edm.String" />
+                <Property Name="aut_city" Type="Edm.String" />
+                <Property Name="aut_employer" Type="Edm.String" />
+                <Property Name="cnct_middle_initial" Type="Edm.String" />
+                <Property Name="org_city" Type="Edm.String" />
+                <Property Name="is_urban" Type="Edm.String" />
+                <Property Name="organization_entity_type_name" Type="Edm.String" />
+                <Property Name="has_service_provider_listed" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="receiving_funds_directly" Type="Edm.String" />
+                <Property Name="org_zipcode_ext" Type="Edm.String" />
+                <Property Name="org_zipcode" Type="Edm.String" />
+                <Property Name="org_email" Type="Edm.String" />
+                <Property Name="cnct_first_name" Type="Edm.String" />
+                <Property Name="latitude" Type="Edm.Decimal" />
+                <Property Name="epc_organization_id" Type="Edm.String" />
+                <Property Name="org_address2" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Recipient Details And Commitments -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Recipient-Details-And-Commitments/avi8-svp9 -->
+            <EntityType Name="avi8-svp9">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="form_471_function_name" Type="Edm.String" />
+                <Property Name="spin_name" Type="Edm.String" />
+                <Property Name="form_471_line_item_number" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="org_congressional_district" Type="Edm.String" />
+                <Property Name="org_zipcode" Type="Edm.String" />
+                <Property Name="org_city" Type="Edm.String" />
+                <Property Name="ros_number_of_full_time_students" Type="Edm.Decimal" />
+                <Property Name="ros_latitude" Type="Edm.Decimal" />
+                <Property Name="ros_physical_state" Type="Edm.String" />
+                <Property Name="ros_physical_address_2" Type="Edm.String" />
+                <Property Name="ros_physical_address" Type="Edm.String" />
+                <Property Name="pre_discount_extended_eligible_line_item_costs" Type="Edm.Decimal" />
+                <Property Name="months_of_service" Type="Edm.Decimal" />
+                <Property Name="form_471_product_name" Type="Edm.String" />
+                <Property Name="pending_reason" Type="Edm.String" />
+                <Property Name="org_address1" Type="Edm.String" />
+                <Property Name="ros_longitude" Type="Edm.Decimal" />
+                <Property Name="org_state" Type="Edm.String" />
+                <Property Name="post_discount_extended_eligible_line_item_costs" Type="Edm.Decimal" />
+                <Property Name="original_allocation" Type="Edm.Decimal" />
+                <Property Name="form_471_frn_status_name" Type="Edm.String" />
+                <Property Name="ros_entity_type" Type="Edm.String" />
+                <Property Name="form_471_frn_fiber_sub_type_name" Type="Edm.String" />
+                <Property Name="total_eligible_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="qty_allocation" Type="Edm.Decimal" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="organization_entity_type_name" Type="Edm.String" />
+                <Property Name="ros_physical_city" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="ros_status" Type="Edm.String" />
+                <Property Name="form_471_upload_speed_unit_name" Type="Edm.String" />
+                <Property Name="form_471_download_speed_unit_name" Type="Edm.String" />
+                <Property Name="chosen_category_of_service" Type="Edm.String" />
+                <Property Name="ros_peak_number_of_part_time_students" Type="Edm.Decimal" />
+                <Property Name="ros_congressional_district" Type="Edm.String" />
+                <Property Name="post_discount_applicant_share" Type="Edm.Decimal" />
+                <Property Name="form_471_status_name" Type="Edm.String" />
+                <Property Name="tribal_type" Type="Edm.String" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="ros_entity_number" Type="Edm.String" />
+                <Property Name="total_monthly_eligible_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="one_time_eligible_costs" Type="Edm.Decimal" />
+                <Property Name="upload_speed" Type="Edm.Decimal" />
+                <Property Name="form_471_service_type_name" Type="Edm.String" />
+                <Property Name="ros_square_footage" Type="Edm.Decimal" />
+                <Property Name="ros_urban_rural_status" Type="Edm.String" />
+                <Property Name="is_school_library_independent" Type="Edm.String" />
+                <Property Name="ros_entity_name" Type="Edm.String" />
+                <Property Name="ros_total_number_of_part_time_students" Type="Edm.Decimal" />
+                <Property Name="spin_number" Type="Edm.String" />
+                <Property Name="monthly_recur_ineligible_cost" Type="Edm.Decimal" />
+                <Property Name="form_471_frn_fiber_type_name" Type="Edm.String" />
+                <Property Name="download_speed" Type="Edm.Decimal" />
+                <Property Name="total_one_time_cost" Type="Edm.Decimal" />
+                <Property Name="ros_number_of_nslp_students" Type="Edm.Decimal" />
+                <Property Name="one_time_ineligible_cost" Type="Edm.Decimal" />
+                <Property Name="total_eligible_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="ros_physical_zipcode" Type="Edm.String" />
+                <Property Name="ros_physical_zipcode_ext" Type="Edm.String" />
+                <Property Name="ros_physical_county" Type="Edm.String" />
+                <Property Name="billed_entity_number" Type="Edm.String" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="ros_subtype" Type="Edm.String" />
+                <Property Name="dis_pct" Type="Edm.Decimal" />
+                <Property Name="one_time_quantity" Type="Edm.Decimal" />
+                <Property Name="monthly_quantity" Type="Edm.Decimal" />
+                <Property Name="monthly_recurring_unit_eligible_costs" Type="Edm.Decimal" />
+                <Property Name="total_monthly_cost" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- High Cost: Eligible Locations Adjustment Process Map (ELAP Map) -->
+            <!-- https://opendata.usac.org/High-Cost/High-Cost-Eligible-Locations-Adjustment-Process-Ma/crne-m2af -->
+            <EntityType Name="crne-m2af">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="latitude" Type="Edm.String" />
+                <Property Name="locations" Type="Edm.Decimal" />
+                <Property Name="zip_code" Type="Edm.String" />
+                <Property Name="city" Type="Edm.String" />
+                <Property Name="address" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="fund_type" Type="Edm.String" />
+                <Property Name="study_area_code" Type="Edm.String" />
+                <Property Name="company_name" Type="Edm.String" />
+                <Property Name="type_of_location" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Open Competitive Bidding: Consultants (FCC Form 470 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Open-Competitive-Bidding-Consultants-FCC-Fo/g55z-erud -->
+            <EntityType Name="g55z-erud">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="consultant_phone" Type="Edm.String" />
+                <Property Name="consulting_firm_phone_ext" Type="Edm.String" />
+                <Property Name="consulting_firm_email" Type="Edm.String" />
+                <Property Name="consultant_phone_ext" Type="Edm.String" />
+                <Property Name="consulting_firm_name" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="consulting_firm_registration" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="consultant_name" Type="Edm.String" />
+                <Property Name="consultant_email" Type="Edm.String" />
+                <Property Name="consulting_firm_phone" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- Rural Health Care Available Rates (FCC Forms 462/466/471) -->
+            <!-- https://opendata.usac.org/Rural-Health-Care/Rural-Health-Care-Available-Rates-FCC-Forms-462-46/g8p8-7esw -->
+            <EntityType Name="g8p8-7esw">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="type" Type="Edm.String" />
+                <Property Name="data_source" Type="Edm.String" />
+                <Property Name="monthly_recurring_rate" Type="Edm.Decimal" />
+                <Property Name="category_of_service" Type="Edm.String" />
+                <Property Name="service_type" Type="Edm.String" />
+                <Property Name="service_provider_or_study_area_name" Type="Edm.String" />
+                <Property Name="service_provider_id_or_sac" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.String" />
+                <Property Name="latitude" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="address_street2" Type="Edm.String" />
+                <Property Name="address_street1" Type="Edm.String" />
+                <Property Name="id" Type="Edm.Decimal" />
+                <Property Name="duplicate_or_distinct" Type="Edm.String" />
+                <Property Name="bandwidth" Type="Edm.Decimal" />
+                <Property Name="rate_tier" Type="Edm.String" />
+                <Property Name="zipcode" Type="Edm.String" />
+                <Property Name="city" Type="Edm.String" />
+                <Property Name="record_identifier" Type="Edm.String" />
+                <Property Name="bandwidth_units" Type="Edm.String" />
+                <Property Name="best_or_dedicated" Type="Edm.String" />
+                <Property Name="month_data_pulled" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: FRN Line Items (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-FRN-Line-I/hbj5-2bpj -->
+            <EntityType Name="hbj5-2bpj">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="connection_supports_service" Type="Edm.String" />
+                <Property Name="total_eligible_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="total_monthly_eligible_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="model_of_equipment" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="form_471_upload_speed_unit_name" Type="Edm.String" />
+                <Property Name="form_471_burstable_unit_name" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="firewall_indicator" Type="Edm.String" />
+                <Property Name="lease" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="connection_directly_school" Type="Edm.String" />
+                <Property Name="form_471_unit_name" Type="Edm.String" />
+                <Property Name="download_speed" Type="Edm.Decimal" />
+                <Property Name="other_manufacturer_desc" Type="Edm.String" />
+                <Property Name="one_time_ineligible_cost" Type="Edm.Decimal" />
+                <Property Name="form_471_product_name" Type="Edm.String" />
+                <Property Name="ben" Type="Edm.String" />
+                <Property Name="burstable_speed" Type="Edm.Decimal" />
+                <Property Name="pre_discount_extended_eligible_line_item_costs" Type="Edm.Decimal" />
+                <Property Name="one_time_eligible_costs" Type="Edm.Decimal" />
+                <Property Name="months_of_service" Type="Edm.Decimal" />
+                <Property Name="cnct_email" Type="Edm.String" />
+                <Property Name="form_471_manufacturer_name" Type="Edm.String" />
+                <Property Name="monthly_recur_ineligible_cost" Type="Edm.Decimal" />
+                <Property Name="monthly_recurring_unit_eligible_costs" Type="Edm.Decimal" />
+                <Property Name="monthly_quantity" Type="Edm.Decimal" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="form_471_purpose_name" Type="Edm.String" />
+                <Property Name="total_eligible_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="one_time_quantity" Type="Edm.Decimal" />
+                <Property Name="total_one_time_cost" Type="Edm.Decimal" />
+                <Property Name="total_monthly_cost" Type="Edm.Decimal" />
+                <Property Name="connection_used_by" Type="Edm.String" />
+                <Property Name="price" Type="Edm.String" />
+                <Property Name="form_471_download_speed_unit_name" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="upload_speed" Type="Edm.Decimal" />
+                <Property Name="form_471_line_item_number" Type="Edm.String" />
+                <Property Name="form_471_function_name" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Supplemental Information: Annexes -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Supplemental-Information-Annexes/hwzi-t5nj -->
+            <EntityType Name="hwzi-t5nj">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="annex_zipcode" Type="Edm.String" />
+                <Property Name="annex_city" Type="Edm.String" />
+                <Property Name="annex_parent_organization_number" Type="Edm.String" />
+                <Property Name="annex_last_modified_by" Type="Edm.String" />
+                <Property Name="annex_phone" Type="Edm.String" />
+                <Property Name="annex_name" Type="Edm.String" />
+                <Property Name="last_updated_date" Type="Edm.String" />
+                <Property Name="annex_parent_organization_name" Type="Edm.String" />
+                <Property Name="annex_county" Type="Edm.String" />
+                <Property Name="annex_state" Type="Edm.String" />
+                <Property Name="annex_address" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- Emergency Connectivity Fund FCC Form 471 -->
+            <!-- https://opendata.usac.org/Emergency-Connectivity-Fund/Emergency-Connectivity-Fund-FCC-Form-471/i5j4-3rvr -->
+            <EntityType Name="i5j4-3rvr">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="agreement_contract_type" Type="Edm.String" />
+                <Property Name="frn_recurring_charges" Type="Edm.Decimal" />
+                <Property Name="frn_total_charges" Type="Edm.Decimal" />
+                <Property Name="frn_line_id" Type="Edm.Decimal" />
+                <Property Name="product_model" Type="Edm.String" />
+                <Property Name="bandwidth_download" Type="Edm.Decimal" />
+                <Property Name="bandwidth_upload" Type="Edm.Decimal" />
+                <Property Name="one_time_unit_quantity" Type="Edm.Decimal" />
+                <Property Name="billed_entity_number" Type="Edm.String" />
+                <Property Name="total_count_of_selected_members" Type="Edm.Decimal" />
+                <Property Name="certified_datetime" Type="Edm.String" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="funding_request_nickname" Type="Edm.String" />
+                <Property Name="service_provider_name" Type="Edm.String" />
+                <Property Name="service_start_date" Type="Edm.String" />
+                <Property Name="frn_total_count_of_recipients_of_service" Type="Edm.Decimal" />
+                <Property Name="fcdl_comment_for_frn" Type="Edm.String" />
+                <Property Name="connection_type" Type="Edm.String" />
+                <Property Name="monthly_recurring_unit_cost" Type="Edm.Decimal" />
+                <Property Name="monthly_quantity" Type="Edm.Decimal" />
+                <Property Name="line_total_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="frn_authorized_disbursement" Type="Edm.Decimal" />
+                <Property Name="line_total_cost" Type="Edm.Decimal" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="application_nickname" Type="Edm.String" />
+                <Property Name="applicant_name" Type="Edm.String" />
+                <Property Name="billed_entity_city" Type="Edm.String" />
+                <Property Name="applicant_subtype" Type="Edm.String" />
+                <Property Name="contact_name" Type="Edm.String" />
+                <Property Name="contact_phone" Type="Edm.String" />
+                <Property Name="contact_email" Type="Edm.String" />
+                <Property Name="consulting_firm" Type="Edm.String" />
+                <Property Name="unmet_student_needs_5" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_6" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_7" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_8" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_9" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_10" Type="Edm.Decimal" />
+                <Property Name="total_funding_commitment_request_amount" Type="Edm.Decimal" />
+                <Property Name="service_provider_identification_number" Type="Edm.String" />
+                <Property Name="service_end_date" Type="Edm.String" />
+                <Property Name="recipients_of_service_entity_data" Type="Edm.String" />
+                <Property Name="network_equipment_type" Type="Edm.String" />
+                <Property Name="one_time_unit_cost" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_3" Type="Edm.Decimal" />
+                <Property Name="frn_one_time_charges" Type="Edm.Decimal" />
+                <Property Name="product_type" Type="Edm.String" />
+                <Property Name="firewall_included" Type="Edm.String" />
+                <Property Name="network_equipment_make_model" Type="Edm.String" />
+                <Property Name="unmet_student_needs_12" Type="Edm.Decimal" />
+                <Property Name="funding_request_status" Type="Edm.String" />
+                <Property Name="service_delivery_date" Type="Edm.String" />
+                <Property Name="fcc_registration_number" Type="Edm.String" />
+                <Property Name="invoicing_method" Type="Edm.String" />
+                <Property Name="funding_request_narrative" Type="Edm.String" />
+                <Property Name="obligation_file" Type="Edm.Decimal" />
+                <Property Name="line_id_months_of_service" Type="Edm.Decimal" />
+                <Property Name="billed_entity_state" Type="Edm.String" />
+                <Property Name="new_construction_self_provisioned_network" Type="Edm.String" />
+                <Property Name="billed_entity_zip_code_ext" Type="Edm.String" />
+                <Property Name="selected_members_entity_data" Type="Edm.String" />
+                <Property Name="unmet_student_needs_1" Type="Edm.Decimal" />
+                <Property Name="product_make" Type="Edm.String" />
+                <Property Name="line_total_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="urban_rural_status" Type="Edm.String" />
+                <Property Name="total_student_count" Type="Edm.Decimal" />
+                <Property Name="form_pdf" Type="Edm.String" />
+                <Property Name="invoice_deadline_date" Type="Edm.String" />
+                <Property Name="filing_window" Type="Edm.String" />
+                <Property Name="applicant_type" Type="Edm.String" />
+                <Property Name="window_status" Type="Edm.String" />
+                <Property Name="fcdl_date" Type="Edm.String" />
+                <Property Name="billed_entity_zip_code" Type="Edm.String" />
+                <Property Name="billed_entity_address" Type="Edm.String" />
+                <Property Name="unmet_student_needs_2" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_4" Type="Edm.Decimal" />
+                <Property Name="unmet_student_needs_11" Type="Edm.Decimal" />
+                <Property Name="last_updated_datetime" Type="Edm.String" />
+                <Property Name="frn_approved_amount" Type="Edm.Decimal" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="application_status" Type="Edm.String" />
+                <Property Name="service_type" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Open Competitive Bidding: Basic Information (FCC Form 470 and Related Information) -->
+            <!-- https://opendata.usac.org/E-Rate/E-Rate-Open-Competitive-Bidding-Basic-Information-/jp7a-89nd -->
+            <EntityType Name="jp7a-89nd">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="installment_min_range_years" Type="Edm.Decimal" />
+                <Property Name="installment_type" Type="Edm.String" />
+                <Property Name="category_two_description" Type="Edm.String" />
+                <Property Name="category_one_description" Type="Edm.String" />
+                <Property Name="authorized_person_employer" Type="Edm.String" />
+                <Property Name="authorized_person_title" Type="Edm.String" />
+                <Property Name="authorized_person_email" Type="Edm.String" />
+                <Property Name="authorized_person_phone_ext" Type="Edm.String" />
+                <Property Name="created_by" Type="Edm.String" />
+                <Property Name="certified_datetime" Type="Edm.String" />
+                <Property Name="certified_by" Type="Edm.String" />
+                <Property Name="last_modified_datetime" Type="Edm.String" />
+                <Property Name="last_modified_by" Type="Edm.String" />
+                <Property Name="ben" Type="Edm.String" />
+                <Property Name="billed_entity_name" Type="Edm.String" />
+                <Property Name="organization_status" Type="Edm.String" />
+                <Property Name="organization_type" Type="Edm.String" />
+                <Property Name="applicant_type" Type="Edm.String" />
+                <Property Name="website_url" Type="Edm.String" />
+                <Property Name="latitude" Type="Edm.Decimal" />
+                <Property Name="authorized_person_phone" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.Decimal" />
+                <Property Name="ben_fcc_registration_number" Type="Edm.String" />
+                <Property Name="billed_entity_address1" Type="Edm.String" />
+                <Property Name="billed_entity_address2" Type="Edm.String" />
+                <Property Name="billed_entity_city" Type="Edm.String" />
+                <Property Name="billed_entity_state" Type="Edm.String" />
+                <Property Name="billed_entity_zip" Type="Edm.String" />
+                <Property Name="billed_entity_zip_ext" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="form_nickname" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="f470_status" Type="Edm.String" />
+                <Property Name="allowable_contract_date" Type="Edm.String" />
+                <Property Name="created_datetime" Type="Edm.String" />
+                <Property Name="billed_entity_email" Type="Edm.String" />
+                <Property Name="billed_entity_phone" Type="Edm.String" />
+                <Property Name="billed_entity_phone_ext" Type="Edm.String" />
+                <Property Name="number_of_eligible_entities" Type="Edm.Decimal" />
+                <Property Name="contact_name" Type="Edm.String" />
+                <Property Name="contact_address1" Type="Edm.String" />
+                <Property Name="contact_address2" Type="Edm.String" />
+                <Property Name="contact_city" Type="Edm.String" />
+                <Property Name="contact_state" Type="Edm.String" />
+                <Property Name="contact_zip" Type="Edm.String" />
+                <Property Name="contact_phone" Type="Edm.String" />
+                <Property Name="contact_zip_ext" Type="Edm.String" />
+                <Property Name="contact_phone_ext" Type="Edm.String" />
+                <Property Name="contact_email" Type="Edm.String" />
+                <Property Name="technical_contact_name" Type="Edm.String" />
+                <Property Name="technical_contact_title" Type="Edm.String" />
+                <Property Name="technical_contact_phone" Type="Edm.String" />
+                <Property Name="technical_contact_phone_ext" Type="Edm.String" />
+                <Property Name="technical_contact_email" Type="Edm.String" />
+                <Property Name="authorized_person_name" Type="Edm.String" />
+                <Property Name="authorized_person_address" Type="Edm.String" />
+                <Property Name="authorized_person_city" Type="Edm.String" />
+                <Property Name="authorized_person_state" Type="Edm.String" />
+                <Property Name="authorized_person_zip" Type="Edm.String" />
+                <Property Name="authorized_person_zip_ext" Type="Edm.String" />
+                <Property Name="f470_number" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="all_libraries" Type="Edm.String" />
+                <Property Name="all_non_public_schools" Type="Edm.String" />
+                <Property Name="all_public_schools_districts" Type="Edm.String" />
+                <Property Name="statewide_state" Type="Edm.String" />
+                <Property Name="state_or_local_restrictions_description" Type="Edm.String" />
+                <Property Name="state_or_local_restrictions" Type="Edm.String" />
+                <Property Name="rfp_identifier" Type="Edm.String" />
+                <Property Name="installment_max_range_years" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Invoices and Authorized Disbursements (FCC Forms 472 and 474) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Invoices-and-Authorized-Disbursements-FCC-F/jpiu-tj8h -->
+            <EntityType Name="jpiu-tj8h">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="customer_billed_dt" Type="Edm.String" />
+                <Property Name="invoice_type" Type="Edm.String" />
+                <Property Name="applicant_type" Type="Edm.String" />
+                <Property Name="consultant_registration_number" Type="Edm.String" />
+                <Property Name="reimb_request_decision_codes" Type="Edm.String" />
+                <Property Name="inv_tot_undiscounted_amt" Type="Edm.Decimal" />
+                <Property Name="form_498_applicant_id" Type="Edm.String" />
+                <Property Name="form_471_app_num" Type="Edm.String" />
+                <Property Name="consultant_name" Type="Edm.String" />
+                <Property Name="inv_total_requested_amt" Type="Edm.Decimal" />
+                <Property Name="service_type" Type="Edm.String" />
+                <Property Name="chosen_category_of_service" Type="Edm.String" />
+                <Property Name="bill_frequency" Type="Edm.String" />
+                <Property Name="billed_entity_name_applicant_invoice" Type="Edm.String" />
+                <Property Name="invoice_delivery_deadline_dt" Type="Edm.String" />
+                <Property Name="submission_method" Type="Edm.String" />
+                <Property Name="inv_line_item_status" Type="Edm.String" />
+                <Property Name="approved_inv_line_amt" Type="Edm.Decimal" />
+                <Property Name="inv_received_date" Type="Edm.String" />
+                <Property Name="inv_line_num" Type="Edm.Decimal" />
+                <Property Name="form_nickname" Type="Edm.String" />
+                <Property Name="invoice_id" Type="Edm.Decimal" />
+                <Property Name="inv_service_provider_id_number_spin" Type="Edm.String" />
+                <Property Name="inv_service_provider_name" Type="Edm.String" />
+                <Property Name="billed_entity_number_applicant_invoice" Type="Edm.String" />
+                <Property Name="inv_crtfctn_dt" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.Decimal" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="billed_entity_number" Type="Edm.String" />
+                <Property Name="billed_entity_name" Type="Edm.String" />
+                <Property Name="billed_entity_state" Type="Edm.String" />
+                <Property Name="shipping_date_to_customer" Type="Edm.String" />
+                <Property Name="discount_rate" Type="Edm.Decimal" />
+                <Property Name="requested_inv_line_amt" Type="Edm.Decimal" />
+                <Property Name="inv_line_completion_date" Type="Edm.String" />
+                <Property Name="reimb_request_decision_descrip" Type="Edm.String" />
+                <Property Name="reimb_request_decision_descrip_plain" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- Lifeline Companies Near Me -->
+            <!-- https://opendata.usac.org/Lifeline/Lifeline-Companies-Near-Me/kjtb-4uf7 -->
+            <EntityType Name="kjtb-4uf7">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="fully_covered_acp_plan_offered" Type="Edm.String" />
+                <Property Name="carrier_type" Type="Edm.String" />
+                <Property Name="county" Type="Edm.String" />
+                <Property Name="customer_service" Type="Edm.String" />
+                <Property Name="device_offered" Type="Edm.String" />
+                <Property Name="city" Type="Edm.String" />
+                <Property Name="zip_code" Type="Edm.String" />
+                <Property Name="company" Type="Edm.String" />
+                <Property Name="website" Type="Edm.String" />
+                <Property Name="carrier_state" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: FRN Status (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-Rate/E-Rate-Request-for-Discount-on-Services-FRN-Status/qdmp-ygft -->
+            <EntityType Name="qdmp-ygft">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="eligible_strands_qty" Type="Edm.Decimal" />
+                <Property Name="cnct_email" Type="Edm.String" />
+                <Property Name="is_lease" Type="Edm.String" />
+                <Property Name="old_funding_request_number" Type="Edm.String" />
+                <Property Name="nickname" Type="Edm.String" />
+                <Property Name="total_financed_amt" Type="Edm.Decimal" />
+                <Property Name="dis_pct" Type="Edm.Decimal" />
+                <Property Name="total_pre_discount_costs" Type="Edm.Decimal" />
+                <Property Name="contract_expiration_date" Type="Edm.String" />
+                <Property Name="establishing_form_470" Type="Edm.String" />
+                <Property Name="extended_expiration_date" Type="Edm.String" />
+                <Property Name="epc_organization_id" Type="Edm.String" />
+                <Property Name="narrative" Type="Edm.String" />
+                <Property Name="total_monthly_recurring_eligible_costs" Type="Edm.Decimal" />
+                <Property Name="months_of_service" Type="Edm.Decimal" />
+                <Property Name="funding_commitment_request" Type="Edm.Decimal" />
+                <Property Name="total_proj_plant_route_feet" Type="Edm.Decimal" />
+                <Property Name="form_486_no" Type="Edm.String" />
+                <Property Name="spin_name" Type="Edm.String" />
+                <Property Name="was_fcc_form_470_posted" Type="Edm.String" />
+                <Property Name="old_470_number" Type="Edm.String" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="revised_fcdl_date" Type="Edm.String" />
+                <Property Name="f486_case_status" Type="Edm.String" />
+                <Property Name="pending_reason" Type="Edm.String" />
+                <Property Name="total_strands_qty" Type="Edm.Decimal" />
+                <Property Name="total_pre_discount_eligible_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="total_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="invoicing_ready" Type="Edm.String" />
+                <Property Name="is_multiple_award" Type="Edm.String" />
+                <Property Name="is_based_on_state_master_contract" Type="Edm.String" />
+                <Property Name="invoicing_mode" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="spac_filed" Type="Edm.String" />
+                <Property Name="service_start_date" Type="Edm.String" />
+                <Property Name="total_remaining_months_count" Type="Edm.Decimal" />
+                <Property Name="remaining_extension_count" Type="Edm.Decimal" />
+                <Property Name="service_delivery_deadline" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="actual_start_date" Type="Edm.String" />
+                <Property Name="sc_rate" Type="Edm.Decimal" />
+                <Property Name="total_pre_discount_eligible_recurring_costs" Type="Edm.Decimal" />
+                <Property Name="fcdl_comment_frn" Type="Edm.String" />
+                <Property Name="form_471_frn_status_name" Type="Edm.String" />
+                <Property Name="restriction_citation" Type="Edm.String" />
+                <Property Name="form_471_frn_fiber_type_name" Type="Edm.String" />
+                <Property Name="number_of_terms" Type="Edm.Decimal" />
+                <Property Name="organization_entity_type_name" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="balloon_payment_desc" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="form_471_frn_fiber_sub_type_name" Type="Edm.String" />
+                <Property Name="fcdl_letter_date" Type="Edm.String" />
+                <Property Name="last_date_to_invoice" Type="Edm.String" />
+                <Property Name="ben" Type="Edm.String" />
+                <Property Name="bid_count" Type="Edm.Decimal" />
+                <Property Name="user_generated_fcdl_date" Type="Edm.String" />
+                <Property Name="wave_sequence_number" Type="Edm.Decimal" />
+                <Property Name="annual_interest_rate" Type="Edm.Decimal" />
+                <Property Name="avg_cost_per_ft_of_plant" Type="Edm.Decimal" />
+                <Property Name="total_ineligible_one_time_costs" Type="Edm.Decimal" />
+                <Property Name="contract_type_name" Type="Edm.String" />
+                <Property Name="account_number" Type="Edm.String" />
+                <Property Name="appeal_wave_number" Type="Edm.String" />
+                <Property Name="state_tribe_match_amt" Type="Edm.Decimal" />
+                <Property Name="epc_contract_restriction_type_name" Type="Edm.String" />
+                <Property Name="award_date" Type="Edm.String" />
+                <Property Name="form_471_service_type_name" Type="Edm.String" />
+                <Property Name="has_voluntary_extension" Type="Edm.String" />
+                <Property Name="post_commitment_rationale" Type="Edm.String" />
+                <Property Name="revised_fcdl_comment" Type="Edm.String" />
+                <Property Name="source_of_matching_funds_desc" Type="Edm.String" />
+                <Property Name="total_authorized_disbursement" Type="Edm.Decimal" />
+                <Property Name="total_monthly_recurring_ineligible_costs" Type="Edm.Decimal" />
+                <Property Name="total_monthly_recurring_cost" Type="Edm.Decimal" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="pricing_confidentiality" Type="Edm.String" />
+                <Property Name="contract_number" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="fcdl_comment_app" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- High Cost: Connect America Fund Broadband Map (CAF Map) -->
+            <!-- https://opendata.usac.org/High-Cost/High-Cost-Connect-America-Fund-Broadband-Map-CAF-M/r59r-rpip -->
+            <EntityType Name="r59r-rpip">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="milestone_certification_date" Type="Edm.String" />
+                <Property Name="locations_obligation" Type="Edm.Decimal" />
+                <Property Name="census_block" Type="Edm.String" />
+                <Property Name="deployment_year" Type="Edm.Decimal" />
+                <Property Name="deployment_date" Type="Edm.String" />
+                <Property Name="deployment_state" Type="Edm.String" />
+                <Property Name="deployment_city" Type="Edm.String" />
+                <Property Name="deployment_address" Type="Edm.String" />
+                <Property Name="longitude" Type="Edm.String" />
+                <Property Name="carrier" Type="Edm.String" />
+                <Property Name="company_name" Type="Edm.String" />
+                <Property Name="latitude" Type="Edm.String" />
+                <Property Name="deployment_zip_code" Type="Edm.String" />
+                <Property Name="speed_tier" Type="Edm.String" />
+                <Property Name="other_technology" Type="Edm.String" />
+                <Property Name="latency" Type="Edm.String" />
+                <Property Name="target_build_out" Type="Edm.Decimal" />
+                <Property Name="technology" Type="Edm.String" />
+                <Property Name="fund_type" Type="Edm.String" />
+                <Property Name="study_area_code" Type="Edm.String" />
+                <Property Name="total_state_support" Type="Edm.Decimal" />
+                <Property Name="locations_deployed" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- Lifeline Disbursements -->
+            <!-- https://opendata.usac.org/Lifeline/Lifeline-Disbursements/tfxa-gt3x -->
+            <EntityType Name="tfxa-gt3x">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="disbursement_type" Type="Edm.String" />
+                <Property Name="submission_type" Type="Edm.String" />
+                <Property Name="disbursement_amount" Type="Edm.Decimal" />
+                <Property Name="support_month_date_format" Type="Edm.String" />
+                <Property Name="support_type" Type="Edm.String" />
+                <Property Name="provider_type" Type="Edm.String" />
+                <Property Name="disbursement_year" Type="Edm.String" />
+                <Property Name="support_month" Type="Edm.Decimal" />
+                <Property Name="technology_type" Type="Edm.String" />
+                <Property Name="service_type" Type="Edm.String" />
+                <Property Name="subscriber_count" Type="Edm.Decimal" />
+                <Property Name="sac" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="sac_name" Type="Edm.String" />
+                <Property Name="disbursement_month_date_format" Type="Edm.String" />
+                <Property Name="support_year" Type="Edm.String" />
+                <Property Name="disbursement_month" Type="Edm.Decimal" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: Recipients Of Service (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-Recipients/tuem-agyq -->
+            <EntityType Name="tuem-agyq">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="ben_no" Type="Edm.String" />
+                <Property Name="ben" Type="Edm.String" />
+                <Property Name="funding_request_number" Type="Edm.String" />
+                <Property Name="form_471_line_item_number" Type="Edm.String" />
+                <Property Name="cnct_email" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="original_allocation" Type="Edm.Decimal" />
+                <Property Name="ben_name" Type="Edm.String" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="qty_allocation" Type="Edm.Decimal" />
+                <Property Name="org_state" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: Discount Calculations (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-Discount-C/upfy-khtr -->
+            <EntityType Name="upfy-khtr">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="par_endowment" Type="Edm.Decimal" />
+                <Property Name="entity_number_of_students" Type="Edm.Decimal" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="c1_voice_discount" Type="Edm.Decimal" />
+                <Property Name="par_entity_school_district_number" Type="Edm.String" />
+                <Property Name="ben_state" Type="Edm.String" />
+                <Property Name="child_entity_locale_code" Type="Edm.Decimal" />
+                <Property Name="child_entity_annex_name" Type="Edm.String" />
+                <Property Name="child_entity_is_urban_or_rural" Type="Edm.String" />
+                <Property Name="child_entity_library_square_footage" Type="Edm.Decimal" />
+                <Property Name="entity_nces_code" Type="Edm.String" />
+                <Property Name="child_nslp_percentage" Type="Edm.Decimal" />
+                <Property Name="par_entity_state_lea_id" Type="Edm.String" />
+                <Property Name="child_entity_fscs_code" Type="Edm.String" />
+                <Property Name="par_entity_locale_code" Type="Edm.Decimal" />
+                <Property Name="par_entity_fscs_code" Type="Edm.String" />
+                <Property Name="par_entity_ben" Type="Edm.String" />
+                <Property Name="child_entity_school_district" Type="Edm.String" />
+                <Property Name="child_entity_ben" Type="Edm.String" />
+                <Property Name="entity_cep_percentage" Type="Edm.Decimal" />
+                <Property Name="par_entity_annex_name" Type="Edm.String" />
+                <Property Name="c2_discount" Type="Edm.Decimal" />
+                <Property Name="par_entity_school_district" Type="Edm.String" />
+                <Property Name="par_entity_state_school_id" Type="Edm.String" />
+                <Property Name="par_subtype" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="c1_discount" Type="Edm.Decimal" />
+                <Property Name="par_entity_type_name" Type="Edm.String" />
+                <Property Name="par_students_count" Type="Edm.String" />
+                <Property Name="child_entity_state_school_id" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="par_entity_is_urban_or_rural" Type="Edm.String" />
+                <Property Name="child_alternative_dis" Type="Edm.String" />
+                <Property Name="child_student_count" Type="Edm.String" />
+                <Property Name="child_entity_type_name" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="par_alternative_dis" Type="Edm.String" />
+                <Property Name="child_endowment" Type="Edm.Decimal" />
+                <Property Name="child_entity_cep_percentage" Type="Edm.Decimal" />
+                <Property Name="child_nslp_students" Type="Edm.Decimal" />
+                <Property Name="child_entity_number_of_students" Type="Edm.Decimal" />
+                <Property Name="child_entity_state_lea_id" Type="Edm.String" />
+                <Property Name="child_entity_school_district_number" Type="Edm.String" />
+                <Property Name="par_entity_library_square_footage" Type="Edm.Decimal" />
+                <Property Name="par_entity_name" Type="Edm.String" />
+                <Property Name="child_subtype" Type="Edm.String" />
+                <Property Name="child_entity_nces_code" Type="Edm.String" />
+                <Property Name="child_entity_name" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- High Cost Disbursements -->
+            <!-- https://opendata.usac.org/High-Cost/High-Cost-Disbursements/w6qn-gx72 -->
+            <EntityType Name="w6qn-gx72">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="form_498_id" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="study_area_code" Type="Edm.String" />
+                <Property Name="month" Type="Edm.String" />
+                <Property Name="fund_type" Type="Edm.String" />
+                <Property Name="amount_disbursed" Type="Edm.Decimal" />
+                <Property Name="study_area_name" Type="Edm.String" />
+                <Property Name="year" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: Consultants (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-Consultant/x5px-esft -->
+            <EntityType Name="x5px-esft">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="funding_year" Type="Edm.String" />
+                <Property Name="cnslt_email" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="cnslt_city" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="cnslt_zipcode" Type="Edm.String" />
+                <Property Name="cnslt_epc_organization_id" Type="Edm.String" />
+                <Property Name="cnslt_phone" Type="Edm.String" />
+                <Property Name="epc_organization_id" Type="Edm.String" />
+                <Property Name="cnslt_name" Type="Edm.String" />
+                <Property Name="cnslt_state" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="cnslt_phone_ext" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="organization_name" Type="Edm.String" />
+                <Property Name="cnct_email" Type="Edm.String" />
+            </EntityType>
+
+
+
+            <!-- E-Rate Request for Discount on Services: Connectivity Information (FCC Form 471 and Related Information) -->
+            <!-- https://opendata.usac.org/E-rate/E-Rate-Request-for-Discount-on-Services-Connectivi/ym44-rnhq -->
+            <EntityType Name="ym44-rnhq">
+                <Key>
+                    <PropertyRef Name="__id" />
+                </Key>
+                <Property Name="__id" Type="Edm.String" Nullable="false" />
+                <Property Name="connection_type_name" Type="Edm.String" />
+                <Property Name="child_upload_speed" Type="Edm.Decimal" />
+                <Property Name="child_conn_type" Type="Edm.String" />
+                <Property Name="child_download_speed" Type="Edm.Decimal" />
+                <Property Name="child_name" Type="Edm.String" />
+                <Property Name="aggregated" Type="Edm.String" />
+                <Property Name="wifi_quality_name" Type="Edm.String" />
+                <Property Name="child_form_471_download_speed_unit_name" Type="Edm.String" />
+                <Property Name="form_version" Type="Edm.String" />
+                <Property Name="other_barrier_text" Type="Edm.String" />
+                <Property Name="cnct_email" Type="Edm.String" />
+                <Property Name="name" Type="Edm.String" />
+                <Property Name="org_state" Type="Edm.String" />
+                <Property Name="application_number" Type="Edm.String" />
+                <Property Name="connectivity_barriers_name" Type="Edm.String" />
+                <Property Name="form_471_upload_speed_unit_name" Type="Edm.String" />
+                <Property Name="is_certified_in_window" Type="Edm.String" />
+                <Property Name="download_speed" Type="Edm.Decimal" />
+                <Property Name="epc_organization_id" Type="Edm.String" />
+                <Property Name="child_barriers" Type="Edm.String" />
+                <Property Name="upload_speed" Type="Edm.Decimal" />
+                <Property Name="child_ben" Type="Edm.String" />
+                <Property Name="form_471_download_speed_unit_name" Type="Edm.String" />
+                <Property Name="child_form_471_upload_speed_unit_name" Type="Edm.String" />
+                <Property Name="child_wifi" Type="Edm.String" />
+                <Property Name="funding_year" Type="Edm.String" />
+            </EntityType>
+
+
+            <!--
+            <ComplexType Name="location">
+                <Property Name="latitude" Type="Edm.Decimal" Precision="12" Scale="9" />
+                <Property Name="longitude" Type="Edm.Decimal" Precision="12" Scale="9" />
+                <Property Name="address" Type="Edm.String" />
+                <Property Name="city" Type="Edm.String" />
+                <Property Name="state" Type="Edm.String" />
+                <Property Name="zip" Type="Edm.String" />
+            </ComplexType>
+            <ComplexType Name="document">
+                <Property Name="file_id" Type="Edm.String" />
+                <Property Name="filename" Type="Edm.String" />
+                <Property Name="content_type" Type="Edm.String" />
+            </ComplexType>
+            <ComplexType Name="phone">
+                <Property Name="type" Type="Edm.String" />
+                <Property Name="number" Type="Edm.String" />
+            </ComplexType>
+            <EntityContainer Name="Service">
+                <EntitySet Name="2kme-evqq" EntityType="socrata.2kme-evqq" />
+                <EntitySet Name="363f-22uh" EntityType="socrata.363f-22uh" />
+                <EntitySet Name="39tn-hjzv" EntityType="socrata.39tn-hjzv" />
+                <EntitySet Name="6brt-5pbv" EntityType="socrata.6brt-5pbv" />
+                <EntitySet Name="7i5i-83qf" EntityType="socrata.7i5i-83qf" />
+                <EntitySet Name="96rf-xd57" EntityType="socrata.96rf-xd57" />
+                <EntitySet Name="9s6i-myen" EntityType="socrata.9s6i-myen" />
+                <EntitySet Name="avi8-svp9" EntityType="socrata.avi8-svp9" />
+                <EntitySet Name="crne-m2af" EntityType="socrata.crne-m2af" />
+                <EntitySet Name="g55z-erud" EntityType="socrata.g55z-erud" />
+                <EntitySet Name="g8p8-7esw" EntityType="socrata.g8p8-7esw" />
+                <EntitySet Name="hbj5-2bpj" EntityType="socrata.hbj5-2bpj" />
+                <EntitySet Name="hwzi-t5nj" EntityType="socrata.hwzi-t5nj" />
+                <EntitySet Name="i5j4-3rvr" EntityType="socrata.i5j4-3rvr" />
+                <EntitySet Name="jp7a-89nd" EntityType="socrata.jp7a-89nd" />
+                <EntitySet Name="jpiu-tj8h" EntityType="socrata.jpiu-tj8h" />
+                <EntitySet Name="kjtb-4uf7" EntityType="socrata.kjtb-4uf7" />
+                <EntitySet Name="qdmp-ygft" EntityType="socrata.qdmp-ygft" />
+                <EntitySet Name="r59r-rpip" EntityType="socrata.r59r-rpip" />
+                <EntitySet Name="tfxa-gt3x" EntityType="socrata.tfxa-gt3x" />
+                <EntitySet Name="tuem-agyq" EntityType="socrata.tuem-agyq" />
+                <EntitySet Name="upfy-khtr" EntityType="socrata.upfy-khtr" />
+                <EntitySet Name="w6qn-gx72" EntityType="socrata.w6qn-gx72" />
+                <EntitySet Name="x5px-esft" EntityType="socrata.x5px-esft" />
+                <EntitySet Name="ym44-rnhq" EntityType="socrata.ym44-rnhq" />
+            </EntityContainer>
+        -->
+        </Schema>
+    </edmx:DataServices>
+</edmx:Edmx>
